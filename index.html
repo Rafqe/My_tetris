@@ -3,7 +3,6 @@
     <head>
         <title>Tetris2.0</title>
         <link rel='stylesheet' href='style.css' />
-        <base href="/My_tetris/">
     </head>
     <div id="header"><h1>Welcome to My Tetris</h1></div>
     <body>
@@ -13,7 +12,7 @@
                 <ul>
                     <div>
                         <li>Move Left:
-                        <img src="./My_tetris/Models/keyleft.png" alt="left Arrow" width="80" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                        <img src="./Models/keyleft.png" alt="left Arrow" width="80" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
                     </div>
                     <div>
                         <li>Move Right:
@@ -21,29 +20,29 @@
                     </div>
                     <div>
                         <li>Rotate:         
-                        <img src="/Models/keyup.png" alt="left Arrow" width="80" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                        <img src="./Models/keyup.png" alt="left Arrow" width="80" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
                     </div>
                     <div>
                         <li>Move down:
-                        <img src="/Models/keydown.png" alt="left Arrow" width="80" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                        <img src="./Models/keydown.png" alt="left Arrow" width="80" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
                     </div>
                     <div>
                         <li>Drop down:
-                        <img src="/Models/space.png" alt="left Arrow" width="100" height="40" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                        <img src="./Models/space.png" alt="left Arrow" width="100" height="40" style="background-color: rgba(240, 248, 255, 0);" ></li>
                     </div>
                     <div>
                         <li>Start game:
-                        <img src="/Models/esc3.png" alt="left Arrow" width="70" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                        <img src="./Models/esc3.png" alt="left Arrow" width="70" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
                     </div>
                     <div>
                         <li>Pause game:
-                        <img src="/Models/pause.png" alt="left Arrow" width="70" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                        <img src="./Models/pause.png" alt="left Arrow" width="70" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
                     </div>
                 </ul>
             </div>
             <div id="midCol">
-                <audio id="clearsound" src="Models/mixkit-video-game-treasure-2066.wav" preload="auto"></audio>
-                <audio id="backgroundsound" src="Models/Nyan Cat.mp3" preload="auto" ></audio>
+                <audio id="clearsound" src="./Models/mixkit-video-game-treasure-2066.wav" preload="auto"></audio>
+                <audio id="backgroundsound" src="./Models/Nyan Cat.mp3" preload="auto" ></audio>
                 <canvas width='300' height='600'></canvas>
                 <div id="buttons">
                     <button id="playbutton" onclick="playButtonClicked()">Start</button>
@@ -58,7 +57,7 @@
                 <div id="scoreDisplay" style="color: aliceblue;">Score: 0</div>
                 <div id="levelDisplay" style="color: aliceblue;">Level: 1</div>
                 <div id="gameOverDisplay" style="color: aliceblue; font-size: 35px; animation: glow 1s ease-in-out infinite alternate"></div>
-                <audio id="loseSound" src="Models/you-lose.mp3" preload="auto"></audio>
+                <audio id="loseSound" src="./Models/you-lose.mp3" preload="auto"></audio>
                 <h2>Next Piece</h2>
                 <canvas id="nextTetromino" width="120" height="120"></canvas>
                 <div id="cheerers">
@@ -66,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <audio id="levelUpSound" src="Models/lvlup.wav" preload="auto"></audio>
+        <audio id="levelUpSound" src="./Models/lvlup.wav" preload="auto"></audio>
     </body>
     <footer>
         <h3>Tetris © 1985~2024 Tetris Holding. 
