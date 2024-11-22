@@ -18,7 +18,7 @@ html, body {
 #header {
     text-align: center;
     color: #e60073;
-    font-size: 3em;
+    font-size: 2em;
     animation: glow 1s ease-in-out infinite alternate;
 }
 
