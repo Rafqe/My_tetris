@@ -2,7 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    max-height: 100vh;
+    overflow: hidden;
     overflow-x: hidden; /* Prevent horizontal scroll */
     font-family: Arial, sans-serif;
     background-image: url("/My_tetris/Models/dogs2.jpg");
