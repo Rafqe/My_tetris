@@ -5,7 +5,7 @@ html, body {
     height: 100%;
     overflow-x: hidden; /* Prevent horizontal scroll */
     font-family: Arial, sans-serif;
-    background-image: url("./models/dogs2.jpg");
+    background-image: url("./Models/dogs2.jpg");
     background-color: #cccccc;
     background-size: 100vw 100vh;
     display: flex;
