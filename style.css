@@ -49,6 +49,7 @@ html, body {
     background-color: rgba(0, 0, 0, 0.1); /* 10% opacity */
     border: 2px solid #e60073;
     padding: 20px;
+    height: 60vh;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: #e60073;
