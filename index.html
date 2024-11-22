@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="background">
+    <head>
+        <title>Tetris2.0</title>
+        <link rel='stylesheet' href='style.css' />
+    </head>
+    <div id="header"><h1>Welcome to My Tetris</h1></div>
+    <body>
+        <div id="container">
+            <div id="Col">
+                <h2>Controls</h2>
+                <ul>
+                    <div>
+                        <li>Move Left:
+                        <img src="/Models/keyleft.png" alt="left Arrow" width="80" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                    </div>
+                    <div>
+                        <li>Move Right:
+                        <img src="/Models/keyright.png" alt="left Arrow" width="80" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                    </div>
+                    <div>
+                        <li>Rotate:         
+                        <img src="/Models/keyup.png" alt="left Arrow" width="80" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                    </div>
+                    <div>
+                        <li>Move down:
+                        <img src="/Models/keydown.png" alt="left Arrow" width="80" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                    </div>
+                    <div>
+                        <li>Drop down:
+                        <img src="/Models/space.png" alt="left Arrow" width="100" height="40" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                    </div>
+                    <div>
+                        <li>Start game:
+                        <img src="/Models/esc3.png" alt="left Arrow" width="70" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                    </div>
+                    <div>
+                        <li>Pause game:
+                        <img src="/Models/pause.png" alt="left Arrow" width="70" height="50" style="background-color: rgba(240, 248, 255, 0);" ></li>
+                    </div>
+                </ul>
+            </div>
+            <div id="midCol">
+                <audio id="clearsound" src="Models/mixkit-video-game-treasure-2066.wav" preload="auto"></audio>
+                <audio id="backgroundsound" src="Models/Nyan Cat.mp3" preload="auto" ></audio>
+                <canvas width='300' height='600'></canvas>
+                <div id="buttons">
+                    <button id="playbutton" onclick="playButtonClicked()">Start</button>
+                    <button id="pausebutton" onclick="pauseResumeGameClicked()">Pause</button>
+                </div>
+                <script src='js/my_tetris.js'></script>
+                <script src='js/controller.js'></script>
+                <script src='js/render.js'></script>
+            </div>
+            <div id="Col">
+                <h2>Game Stats</h2>
+                <div id="scoreDisplay" style="color: aliceblue;">Score: 0</div>
+                <div id="levelDisplay" style="color: aliceblue;">Level: 1</div>
+                <div id="gameOverDisplay" style="color: aliceblue; font-size: 35px; animation: glow 1s ease-in-out infinite alternate"></div>
+                <audio id="loseSound" src="Models/you-lose.mp3" preload="auto"></audio>
+                <h2>Next Piece</h2>
+                <canvas id="nextTetromino" width="120" height="120"></canvas>
+                <div id="cheerers">
+                    
+                </div>
+            </div>
+        </div>
+        <audio id="levelUpSound" src="Models/lvlup.wav" preload="auto"></audio>
+    </body>
+    <footer>
+        <h3>Tetris © 1985~2024 Tetris Holding. 
+            Tetris logos, Tetris theme song and Tetriminos are trademarks of Tetris Holding. 
+            The Tetris trade dress is owned by Tetris Holding. 
+            Licensed to The Tetris Company. Tetris Game Design by Alexey Pajitnov. 
+            Tetris Logo Design by Roger Dean. All Rights Reserved.
+        </h3>
+    </footer>
+</html>
