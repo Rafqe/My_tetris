@@ -38,6 +38,7 @@ html, body {
     grid-template-columns: 1fr 3fr 1fr;
     gap: 20px;
     padding: 20px;
+    max-height: 80vh;
     width: 100%;
     max-width: 1200px;
     box-sizing: border-box;
