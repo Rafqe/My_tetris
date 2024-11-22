@@ -12,6 +12,11 @@ let currentX, currentY; // position of current shape
 let freezed; // is current shape settled on the board?
 let gameRunning = false; // True if the game is running
 let gamePaused = false;
+window.addEventListener('resize', () => {
+    const canvas = document.querySelector('canvas');
+    const newHeight = window.innerHeight * 0.6; // Adjust height to 60% of the viewport height
+    canvas.height = newHeight;
+});
 let shapes = [
     [ // I shape
         [0, 0, 0, 0],
