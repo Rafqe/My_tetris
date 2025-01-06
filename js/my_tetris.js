@@ -62,7 +62,7 @@ let shapes = [
     ]
 ];
 let colors = [
-    'cyan', 'orange', 'blue', 'yellow', 'red', 'green', 'purple'
+    'red', 'blue', 'red', 'blue', 'red', 'blue', 'red'
 ];
 
 // Generate a new tetromino
