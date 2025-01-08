@@ -31,7 +31,7 @@ function renderNextTetromino() {
 function render() {
     ctx.clearRect(0, 0, W, H);
 
-    ctx.strokeStyle = 'black';
+    ctx.strokeStyle = 'white';
     for (var x = 0; x < COLS; x++) {
         for (var y = 20; y < ROWS; y++) {
             if (board[y][x]) {
