@@ -15,7 +15,7 @@ function renderNextTetromino() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     const BLOCK_SIZE = canvas.width / 4; // Each block is a quarter of the canvas width
-    ctx.strokeStyle = 'black';
+    ctx.strokeStyle = 'white';
 
     for (let y = 0; y < 4; y++) {
         for (let x = 0; x < 4; x++) {
