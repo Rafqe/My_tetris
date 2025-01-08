@@ -75,6 +75,7 @@ html, body {
 canvas {
     border: 1px solid black;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 /* Buttons styling */
