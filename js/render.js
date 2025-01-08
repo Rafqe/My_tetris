@@ -41,7 +41,7 @@ function render() {
         }
     }
     ctx.fillStyle = 'red';
-    ctx.strokeStyle = 'black';
+    ctx.strokeStyle = 'white';
     for (var y = 0; y < 4; y++) {
         for (var x = 0; x < 4; x++) {
             if (current[y][x]) {
